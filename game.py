@@ -4,7 +4,8 @@ from random import randint
 
 player_wins = 0
 computer_wins = 0
-winning_score = 3
+winning_score = 5
+#game currently set to first player to win 5 rounds wins the game
 
 while player_wins < winning_score and computer_wins < winning_score:
     print(f"Player Score: {player_wins} Computer Score: {computer_wins}")
